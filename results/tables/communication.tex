@@ -1,0 +1,13 @@
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Scheme} & \textbf{Initiator$\rightarrow$} & \textbf{Responder$\rightarrow$} & \textbf{Total} & \textbf{$\times$X25519} \\
+ & \textbf{(B)} & \textbf{(B)} & \textbf{(B)} & \\
+\hline
+X25519 (classical) & 32 & 32 & 64 & 1.0 \\ \hline
+ML-KEM-512 & 800 & 768 & 1568 & 24.5 \\ \hline
+X25519+ML-KEM-512 & 832 & 800 & 1632 & 25.5 \\ \hline
+ML-KEM-768 & 1184 & 1088 & 2272 & 35.5 \\ \hline
+X25519+ML-KEM-768 & 1216 & 1120 & 2336 & 36.5 \\ \hline
+ML-KEM-1024 & 1568 & 1568 & 3136 & 49.0 \\ \hline
+X25519+ML-KEM-1024 & 1600 & 1600 & 3200 & 50.0 \\ \hline
+\end{tabular}

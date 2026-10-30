@@ -1,0 +1,8 @@
+# Exact versions used for the published results (Python 3.14.8, CPython).
+# liboqs itself is a C library: build it with scripts/install_liboqs.sh first.
+cryptography==50.0.2
+liboqs-python==0.16.0.1
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+pytest==9.1.1

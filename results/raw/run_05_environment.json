@@ -1,0 +1,81 @@
+{
+  "timestamp_utc": "2026-10-27T09:04:39+00:00",
+  "platform": {
+    "system": "Linux",
+    "kernel": "6.1.155",
+    "os": "Ubuntu 26.04.1 LTS",
+    "machine": "x86_64"
+  },
+  "cpu": {
+    "cpu_family": "6",
+    "model": "106",
+    "model_name": "Intel(R) Xeon(R) Processor @ 2.90GHz",
+    "stepping": "6",
+    "microcode": "0x1",
+    "simd_flags": [
+      "adx",
+      "aes",
+      "avx",
+      "avx2",
+      "avx512f",
+      "avx512vl",
+      "bmi2",
+      "sha_ni",
+      "sse4_2"
+    ],
+    "hypervisor": true,
+    "logical_cpus": 2,
+    "threads_per_core": "1",
+    "cores_per_socket": "2",
+    "sockets": "1",
+    "bogomips": "5799.91",
+    "hypervisor_vendor": "KVM",
+    "l1d_cache": "96 KiB (2 instances)",
+    "l2_cache": "2.5 MiB (2 instances)",
+    "l3_cache": "54 MiB (1 instance)",
+    "scaling_governor": "not exposed (virtualised)"
+  },
+  "memory_total_gib": 7.77,
+  "python": {
+    "version": "3.14.8",
+    "implementation": "CPython",
+    "compiler": "Clang 23.1.3 ",
+    "executable": "/home/user/workspace/venv/bin/python"
+  },
+  "libraries": {
+    "cryptography": "50.0.2",
+    "cryptography_openssl": "OpenSSL 4.0.3 29 Sep 2026",
+    "liboqs-python": "0.16.0.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "liboqs": {
+    "liboqs_version": "0.16.0",
+    "liboqs_python_version": "0.16.0.1",
+    "mlkem_x86_64_optimised": true,
+    "dist_build_runtime_cpu_dispatch": true,
+    "uses_openssl_for_symmetric": false,
+    "liboqs_git_commit": "5a1a854b0dc9f2141bdc771c555ee60c37950183"
+  },
+  "cpu_microarchitecture_note": "Intel family 6 model 106 = Ice Lake-SP (3rd Gen Xeon Scalable)",
+  "cpu_affinity": [
+    1
+  ],
+  "run": {
+    "run_id": 5,
+    "trials": 200,
+    "warmup": 50,
+    "shuffle_seed": 2031,
+    "schemes": [
+      "ECDH-X25519",
+      "ML-KEM-512",
+      "Hybrid-X25519+ML-KEM-512",
+      "ML-KEM-768",
+      "Hybrid-X25519+ML-KEM-768",
+      "ML-KEM-1024",
+      "Hybrid-X25519+ML-KEM-1024"
+    ]
+  }
+}

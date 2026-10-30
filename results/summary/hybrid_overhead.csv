@@ -1,0 +1,4 @@
+level,keygen_delta_median_us,keygen_delta_ci95_lo,keygen_delta_ci95_hi,encap_delta_median_us,encap_delta_ci95_lo,encap_delta_ci95_hi,decap_delta_median_us,decap_delta_ci95_lo,decap_delta_ci95_hi,total_delta_median_us,total_delta_ci95_lo,total_delta_ci95_hi,total_delta_pct_of_mlkem,total_delta_vs_ecdh_median_ratio
+512,38.388,38.262,38.518,76.264,76.069,76.443,38.88,38.527,39.038,154.023,153.656,154.326,417.547,0.976
+768,38.49,38.39,38.621,76.556,76.409,76.693,39.054,38.926,39.143,154.511,154.194,154.766,324.439,0.979
+1024,38.476,38.311,38.597,76.328,75.977,76.601,39.176,39.084,39.278,154.637,154.058,154.974,267.846,0.979

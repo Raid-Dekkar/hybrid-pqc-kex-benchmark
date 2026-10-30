@@ -1,0 +1,13 @@
+% median (IQR) in microseconds, n=1000 measured trials per scheme
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Scheme} & \textbf{KeyGen} & \textbf{Encap} & \textbf{Decap} & \textbf{Total} \\
+\hline
+X25519 (classical) & 37.8 (1.5) & 78.6 (2.7) & 41.4 (1.4) & 157.9 (6.8) \\ \hline
+ML-KEM-512 & 8.3 (0.6) & 14.2 (0.8) & 14.3 (0.5) & 36.9 (1.9) \\ \hline
+X25519+ML-KEM-512 & 46.7 (1.9) & 90.4 (3.5) & 53.2 (1.8) & 190.9 (11.5) \\ \hline
+ML-KEM-768 & 11.7 (0.7) & 17.4 (0.8) & 18.4 (0.7) & 47.6 (2.3) \\ \hline
+X25519+ML-KEM-768 & 50.2 (1.8) & 94.0 (3.2) & 57.5 (1.9) & 202.1 (10.4) \\ \hline
+ML-KEM-1024 & 14.5 (0.8) & 20.7 (0.9) & 22.5 (0.8) & 57.7 (2.8) \\ \hline
+X25519+ML-KEM-1024 & 53.0 (2.0) & 97.0 (3.3) & 61.6 (2.1) & 212.4 (9.7) \\ \hline
+\end{tabular}

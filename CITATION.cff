@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Kindly cite this software if you use it."
+
+authors:
+  - family-names: "Dekkar"
+    given-names: "Raid Nedjm Eddine"
+
+title: "Hybrid Classical–Post-Quantum Key Establishment Benchmark"
+version: 1.0.0
+repository-code: "https://https://github.com/Raid-Dekkar/hybrid-pqc-kex-benchmark"
+type: software
